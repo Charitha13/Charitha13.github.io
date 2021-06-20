@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel= "stylesheet" href = "style.css">
+        
+        <title>Portfolio - Charitha Sree Jayaramireddy</title>
+
+    </head>
+    <body>
+        <!-- Nav Bar-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+            <div class="container">
+            <a href = "#" class="navbar-brand">Charitha Sree Jayaramireddy</a> 
+            <!--HamBurger menu in small screen-->
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        
+        </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                       <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#edumodal">
+                        Education
+                      </button>                      
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a href= "#projectAccordion" class=" btn btn-dark" > Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#aboutmodal">
+                            About
+                          </button>
+                    </li>
+                </ul>
+            </div>
+
+
+            </div>
+        </nav>
+
+        <!--Show Case-->
+        <section class="bg-dark text-light p-4 text-center ">
+            <div class="container">
+                <div class="d-sm-flex">
+                    <div>
+                        <h1>MS in Computer Science at UNH</h1>
+                        <p class="lead"  align= "left">
+                            <span class ="text-warning" >
+                                TECHNICAL SKILLS<br>
+                            </span>
+                            <span class="text-light" > 
+                                SAP: SAP Payroll</span><br>
+                                Programming: C, C++, Java, JavaScript, Python3<br>
+                                Database: MySQL, MongoDB<br>
+                                Automation: Selenium Web driver<br>
+                                Framework: Bootstrap 5<br>
+                                VCS: Git<br>
+
+                            </span>
+                                
+                        </p>
+                        <a href="mailto:charithareddy13@gmail.com" class="btn btn-primary btn-lg"> Contact </a>  
+                                              
+
+                          
+                    </div>
+                    <img class="img-fluid w-25 d-none d-sm-block" src="/images/yellow1.svg" alt=""/>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Resume Download-->
+        <section class="bg-secondary text-light  p-4">
+            <div class="container text-center fst-italic">
+                <h3>
+                <object data="Resume_Charitha_April_2021" type="application/pdf" width="100%" height="800px"> 
+                    <p>  <a href="/Resume_Charitha_April_2021.pdf" class="text-warning ">Click here to
+                    download the Resume</a></p>  
+                  </object>
+                </h3>
+              
+            </div> 
+
+        </section>
+
+        <!-- Cards -->
+        <section class="p-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-2">
+                                    ADP - SAP Functional Consultant                                    
+                                </h3>
+                                <p class="card-text ">
+                                    July 2018 – Dec 2020
+                                </p>
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#adpmodal">
+                                    Work Description
+                                  </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card bg-dark text-light">
+                            <div class="card-body text-center">
+                                <h3 class="card-title  ">
+                                    Host Analytics - Test Automation Engineer                                
+                                </h3>
+                                
+                                <p class="card-text ">
+                                    Jan 2018 – June 2018
+                                </p>
+                                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#hostmodal">
+                                    Work Description
+                                  </button>
+                            </div>
+                        </div>
+                    </div>                  
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--Links Section-->
+        <section id="link" class="p-5">
+            <div class = "container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md">
+                        <img src="images/vcs.svg" class="img-fluid w-25" alt="">
+                        <h4>
+                        <a href="https://github.com/Charitha13/" class= " font-italic font-weight-normal text-primary "> Link to Github</a>
+
+
+                        </h4>
+
+                    </div>
+                        
+                        
+                    <div class="col-md">
+                        <img src="images/linkedin.svg" class="img-fluid  w-25" alt="">
+                        <h4>
+                            <a href="https://www.linkedin.com/in/charitha-sree-jayaramireddy-851237163/" 
+                            class= " font-italic font-weight-normal text-primary"> LinkedIn Profile</a>
+                        </h4>
+                    </div>
+                    
+                        
+                </div>
+                    
+
+            </div>
+
+        </section>
+
+        <!--Projects Description-->
+        <section id="projectdesc " class="p-2 bg-dark ">
+            
+            <div class = "container">
+                
+               <h2 class="text-warning">Projects Description</h2>
+               <div class="accordion accordion-flush" id="projectAccordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button text-success fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Jigsaw Puzzle
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectAccordion">
+                    <div class="accordion-body">
+                        Built a Jigsaw puzzle game using python pygame and Tkinter.<br>
+                        • Features of the game –<br>
+                            &emsp; 1. Multiple levels – Complexity increases with each level. <br>
+                            &emsp; 2. Display of original image for reference.<br>
+                            &emsp; 3. Option to choose among images.<br>
+                            &emsp; 4. Background music and options for play/pause.<br>
+                            &emsp; 5. A cool feature is that the user can upload their own image and can make a puzzle out of it.<br>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed text-success fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Grocery Store Management System
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#projectAccordion">
+                    <div class="accordion-body">
+                        • Grocery store Management System is built to manage customer’s information, purchases, stocks,
+                        employee’s information, multiple branches, suppliers. This is built using MySQL database and python 
+                        Tkinter for Graphical User Interface. <br>
+                        • Using the GUI, one can perform operations such as add, modify, delete and search. Added validation 
+                        functionality to avoid data discrepancies
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed text-success fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+                        Portfolio website
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#projectAccordion">
+                      <div class="accordion-body">
+                        •	Built a portfolio website using Bootstrap 5  which has all education, work and other information about myself.
+                        
+                      </div>
+                    </div>
+                  </div>
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed text-success fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Item Based Rating Forecast
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#projectAccordion">
+                    <div class="accordion-body">
+                        Built an application to predict the "rating" or "preference" that a user would give to an item using Java, 
+                        Data Structures and adjusted Pearson’s correlation.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed text-success fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Encryption Utility Web Services
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#projectAccordion">
+                      <div class="accordion-body">
+                        • Built a middle ware using TIBCO Business works to encrypt and decrypt the credit card data that is used 
+                        for PNR booking. <br>
+                        • Used SoapUI for testing the project
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+              
+
+            </div>
+
+        </section>
+
+        <!--Modals-->
+        <div class="modal fade " id="edumodal" tabindex="-1" aria-labelledby="eduModalLabel" aria-hidden="true" >
+            <div class="modal-dialog ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="eduModalLabel">Education</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                    <strong>University of New Haven, West Haven, CT.&emsp13; 01/2021-Present </strong><br>
+                    Pursuing Master of Science in Computer Science,GPA [4/4]<br>
+                   <strong> GITAM University, Hyderabad, India. &emsp13;April 2018 </strong><br>
+                    Bachelor of Technology in Computer Science and Engineering, GPA [9.15/10]<br>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary bt" data-bs-dismiss="modal">Close</button>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade " id="aboutmodal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true" >
+            <div class="modal-dialog ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="aboutModalLabel">About Me</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                    <strong>Charitha Sree Jayaramireddy </strong><br>
+                    Edgewood Dr, New Hyde Park, New York - 11040<br>
+                    Email- charithareddy13@gmail.com /<br>
+                        -        &emsp13; cjaya1@unh.newhaven.edu
+                   
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary bt" data-bs-dismiss="modal">Close</button>
+                  </div>
+                
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="adpmodal" tabindex="-1" aria-labelledby="adpModalLabel" aria-hidden="true" >
+            <div class="modal-dialog ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="adpModalLabel">ADP, Hyderabad, India</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                    <strong>SAP Functional Consultant </strong><br>
+                    
+                        • Worked on the SAP Payroll module specific to the US. Analyzed the TUBS releases for each client, and 
+                        made the system compliant with the latest legislative changes after performing the impact analysis.<br>
+                        • Built Enhanced Payroll Process Automation system - automating the entire payroll processing including 
+                        pre- and post-payroll activities which reduced the processing time by more than 50 percent and also 
+                        reduced the manual effort.<br>
+                        • Worked on PCR’s, Schemas, Pay slip design, New Entities creation, Benefit plans.<br>
+                        • Identify, review, analyze and fix production issues submitted through CRM.<br>
+                        • Designed and developed SAP Transaction code to display data from multiple SAP tables in a single run
+                        by mapping data from different SAP tables.<br>
+                   
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary bt" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+        <div class="modal fade" id="hostmodal" tabindex="-1" aria-labelledby="hostModalLabel" aria-hidden="true" >
+            <div class="modal-dialog ">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="hostModalLabel">Host Analytics, Hyderabad, India</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                    <strong>Software Intern - Test Automation Engineer </strong><br>
+                    
+                    • Worked on project HATAF (Host Analytics Test Automation Framework) for Host Analytics financial 
+                    planning web application automation testing using Selenium Web driver with TestNG framework.<br> 
+                    • Designed and executed selenium test cases and reporting defects.<br>
+                    
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary bt" data-bs-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+
+          
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+       
+    </body>
+
+</html>
